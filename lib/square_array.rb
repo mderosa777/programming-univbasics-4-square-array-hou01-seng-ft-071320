@@ -3,11 +3,12 @@
   
 
 
-def square_array(array)
-  arr = []
-  array.each { |i| arr << i ** 2 }
-  arr
+def square_array(numbers)
+  counter = 0
+  sqr_numbers=[]
+  while numbers[counter] do
+    sqr_numbers<< numbers[counter]*numbers[counter]
+    counter += 1
+  end
+  sqr_numbers
 end
-
-myr)_arr = [1, 2]
-p square_array(my_ar
